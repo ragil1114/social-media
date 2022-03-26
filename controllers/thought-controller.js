@@ -2,7 +2,7 @@ const { Thought, User } = require('../models');
 
 // Object
 const thoughtController = {
-  // add comment to pizza Method
+  // add thought to user Method
   addThought({ params, body }, res) {
     console.log(body);
     Thought.create(body)
