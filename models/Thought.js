@@ -4,10 +4,10 @@ const dateFormat = require('../utils/dateFormat');
 const ThoughtSchema = new Schema(
   {
     thoughtText: {
-      type: string,
-      required: true,
-      minlength: 1,
-      maxlength: 280,
+      type: string = '',
+      //required: true,
+      //minlength: 1,
+      //maxlength: 280,
     },
     createdAt: {
       type: Date,
@@ -16,7 +16,7 @@ const ThoughtSchema = new Schema(
     },
     username: {
       type: string,
-      required: true,
+      //required: true,
     },
   },
   {
@@ -39,7 +39,7 @@ const ReactionSchema = new Schema(
     },
     username: {
       type: string,
-      required: true,
+      //required: true,
     },
     createdAt: {
       type: Date,
