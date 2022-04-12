@@ -21,7 +21,7 @@
 https://github.com/ragil1114/social-media.git
 
 - Screencastify:
-
+https://drive.google.com/file/d/1jJT9Qo_QjChlOH3B0Acxf0B7r_ZuVmU4/view
 
 ## Screenshots
 ![demo](https://github.com/ragil1114/social-media/blob/main/public/assets/images/demo.png)
